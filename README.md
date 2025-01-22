@@ -94,10 +94,10 @@ You can also join our WeChat group by scanning the code below:
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
 * [**Zhengyu Liang**](https://github.com/ZhengyuLiang24) ([zyliang@nudt.edu.cn](zyliang@nudt.edu.cn))
 * [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
-* [**Juncheng Li**](https://junchenglee.com/) ([junchengli@math.cuhk.edu.hk](junchengli@math.cuhk.edu.hk))
+* [**Juncheng Li**](https://junchenglee.com/) ([cvjunchengli@gmail.com](cvjunchengli@gmail.com))
 * [**Jungang Yang**]() ([yangjungang@nudt.edu.cn](yangjungang@nudt.edu.cn))
 * [**Radu Timofte**](https://people.ee.ethz.ch/~timofter/) ([Radu.Timofte@vision.ee.ethz.ch](Radu.Timofte@vision.ee.ethz.ch))
-* [**Yulan Guo**](http://yulanguo.cn/) ([yulan.guo@nudt.edu.cn](yulan.guo@nudt.edu.cn))
+* [**Yulan Guo**](http://www.yulanguo.cn/) ([guoyulan@sysu.edu.cn](guoyulan@sysu.edu.cn))
 <br><br>
 
 ## NTIRE 2025 Terms and Conditions:
