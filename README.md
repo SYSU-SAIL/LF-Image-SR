@@ -6,6 +6,7 @@
 
 ## News and Updates:
 * **2025-01-20**: Training and validation data is released.
+* **2025-01-30**: Validation server is online.
 <br><br>
 
 ## Introduction
@@ -29,9 +30,9 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 ### Validation Set: *[[Baidu Drive](https://pan.baidu.com/s/1n6TPP7EJlkKPMn-0DkN10g) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
 
-We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server]().
+We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/21276).
 
-### Test Set:  *[OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
+### Test Set: *[OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
 
 We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 are provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaLab platform for final ranking. **It should be noted that the images in both the validation and the test sets (even the LR versions) cannot be used for training.** We provide [a template](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/Eeneqp4BnlhBmd4EGJ6T4KEB3YtuxuCUTgakr-ezxySOWA?e=WtdFYe ) for the participants to format their fact sheet.
 <br><br>
@@ -44,13 +45,13 @@ We evaluate the submitted results by comparing them with the ground truth LF ima
 ## Tracks (NEW):
 There are three tracks in this challenge. All the three tracks adopt the bicubic downsampling approach to generate LR LF images.
 
-### Track 1: [Classic]()
+### Track 1: [Classic](https://codalab.lisn.upsaclay.fr/competitions/21276)
 This track aims to encourage participants to explore the precision upper bound of LF image SR with the **given standard** training data. In this track, their is no efficiency limitation (e.g., the parameter amount or computational cost) of the developed models. The rankings are determined by the average PSNR value on the test set only. **External training data or pretrained models are NOT allowed in this track.**
 
-### Track 2: [Efficiency]()
+### Track 2: [Efficiency](https://codalab.lisn.upsaclay.fr/competitions/21277)
 In this track, we aspire to highlight an under-investigated issue of efficient inference in LF image SR, and hope the participants to develop LF image SR methods that can achieve high computational efficiency without compromising the SR quality. Note that, in this track, the model size (i.e., number of parameters) is restricted to 1 MB, and the FLOPs computed using the fvcore library is restricted to 20 G (with an input LF of size 5×5×32×32). The computational cost of Test-Time Augmentation (TTA) operations will be counted to the final FLOPs. Models that do not meet the efficiency requirement will not be included for the ranking. After the submission of the fact sheet and code, we will also assess the inference time of each model as an additional metric in the final challenge report. The rankings are determined by the average PSNR value on the test set only. 
 
-### Track 3: [Large Model]()
+### Track 3: [Large Model](https://codalab.lisn.upsaclay.fr/competitions/21278)
 In this track, we aspire to leverage the power of large foundation models to boost the performance of LF image SR. In this track, the participants are allowed to use external training data and pretrained models for model development, and there is no efficienvy limitation. The rankings are determined by the average PSNR value on the test set only. Note that, **validation set and test set are NOT allowed for training.**
 
 
@@ -66,7 +67,7 @@ In this track, we aspire to leverage the power of large foundation models to boo
 <br>
 
 ## Submission
-We use CodaLab for online submission in the development phase. **Here, we provide an [example](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/EZlBXzU5CZ9DsZKXaK56iksBcdN_cajk-hRYjXQI-K0E-g?e=3UMldv) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.lfsr@outlook.com). Please refer to our [online website]() for details of the submission rules.
+We use CodaLab for online submission in the development phase. **Here, we provide an [example](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/EZlBXzU5CZ9DsZKXaK56iksBcdN_cajk-hRYjXQI-K0E-g?e=3UMldv) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.lfsr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/21276#learn_the_details-evaluation) for details of the submission rules.
 <br><br>
 
 ## Important Dates
@@ -88,7 +89,7 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 For any question regarding this challenge, raise an issue under this repository. <br>
 You can also join our WeChat group by scanning the code below:
 
-<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2024/Fig/WeChat.jpg" width="40%"> </p>
+<p align="center"> <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2025/Fig/WeChat.jpg" width="40%"> </p>
 
 ## Organizers:
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
@@ -101,6 +102,6 @@ You can also join our WeChat group by scanning the code below:
 <br><br>
 
 ## NTIRE 2025 Terms and Conditions:
-The terms and conditions of this challenge can be viewed [here]().
+The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/21276#learn_the_details-terms_and_conditions).
  
 <br>
