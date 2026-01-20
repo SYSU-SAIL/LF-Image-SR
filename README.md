@@ -1,5 +1,5 @@
 # NTIRE 2026: Light Field Image Super-Resolution Challenge <br> 
-<p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2025/Fig/logo.jpg" width="400"> </p>
+<p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2026/Fig/logo.jpg" width="400"> </p>
 
 **Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2026/) in conjunction with CVPR 2026. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
