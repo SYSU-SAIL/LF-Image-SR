@@ -87,13 +87,13 @@ Welcome to join our WeChat group by contact Yingqian Wang (WeChat: wangyingqian_
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
 * [**Zhengyu Liang**](https://github.com/ZhengyuLiang24) ([zyliang@nudt.edu.cn](zyliang@nudt.edu.cn))
 * [**Longguang Wang**](https://longguangwang.github.io/) ([wanglongguang15@nudt.edu.cn](wanglongguang15@nudt.edu.cn))
-* [**Juncheng Li**](https://junchenglee.com/) ([cvjunchengli@gmail.com](cvjunchengli@gmail.com))
+* [**Juncheng Li**](https://junchenglee.com/) ([jcli@cs.ecnu.edu.cn](jcli@cs.ecnu.edu.cn))
 * [**Jungang Yang**]() ([yangjungang@nudt.edu.cn](yangjungang@nudt.edu.cn))
 * [**Radu Timofte**](https://people.ee.ethz.ch/~timofter/) ([Radu.Timofte@vision.ee.ethz.ch](Radu.Timofte@vision.ee.ethz.ch))
 * [**Yulan Guo**](http://www.yulanguo.cn/) ([guoyulan@sysu.edu.cn](guoyulan@sysu.edu.cn))
 <br><br>
 
-## NTIRE 2025 Terms and Conditions:
+## NTIRE 2026 Terms and Conditions:
 The terms and conditions of this challenge can be viewed [here](https://www.codabench.org/competitions/12928/).
  
 <br>
