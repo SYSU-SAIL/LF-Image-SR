@@ -1,12 +1,12 @@
-# NTIRE 2025: Light Field Image Super-Resolution Challenge <br> 
+# NTIRE 2026: Light Field Image Super-Resolution Challenge <br> 
 <p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2025/Fig/logo.jpg" width="400"> </p>
 
-**Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2025/) in conjunction with CVPR 2025. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
+**Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2026/) in conjunction with CVPR 2026. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
 
 ## News and Updates:
-* **2025-01-20**: Training and validation data is released.
-* **2025-01-30**: Validation server is online.
+* **2026-01-20**: Training and validation data released.
+* **2026-01-30**: Validation server online.
 <br><br>
 
 ## Introduction
@@ -45,13 +45,13 @@ We evaluate the submitted results by comparing them with the ground truth LF ima
 ## Tracks (NEW):
 There are three tracks in this challenge. All the three tracks adopt the bicubic downsampling approach to generate LR LF images.
 
-### Track 1: [Classic](https://codalab.lisn.upsaclay.fr/competitions/21276)
+### Track 1: [Classic](https://www.codabench.org/competitions/12928/)
 This track aims to encourage participants to explore the precision upper bound of LF image SR with the **given standard** training data. In this track, their is no efficiency limitation (e.g., the parameter amount or computational cost) of the developed models. The rankings are determined by the average PSNR value on the test set only. **External training data or pretrained models are NOT allowed in this track.**
 
-### Track 2: [Efficiency](https://codalab.lisn.upsaclay.fr/competitions/21277)
+### Track 2: [Efficiency](https://www.codabench.org/competitions/12927/)
 In this track, we aspire to highlight an under-investigated issue of efficient inference in LF image SR, and hope the participants to develop LF image SR methods that can achieve high computational efficiency without compromising the SR quality. Note that, in this track, the model size (i.e., number of parameters) is restricted to 1 MB, and the FLOPs computed using the fvcore library is restricted to 20 G (with an input LF of size 5×5×32×32). The computational cost of Test-Time Augmentation (TTA) operations will be counted to the final FLOPs. Models that do not meet the efficiency requirement will not be included for the ranking. After the submission of the fact sheet and code, we will also assess the inference time of each model as an additional metric in the final challenge report. The rankings are determined by the average PSNR value on the test set only. 
 
-### Track 3: [Large Model](https://codalab.lisn.upsaclay.fr/competitions/21278)
+### Track 3: [Large Model](https://www.codabench.org/competitions/12929/)
 In this track, we aspire to leverage the power of large foundation models to boost the performance of LF image SR. In this track, the participants are allowed to use external training data and pretrained models for model development, and there is no efficienvy limitation. The rankings are determined by the average PSNR value on the test set only. Note that, **validation set and test set are NOT allowed for training.**
 
 
@@ -67,18 +67,18 @@ In this track, we aspire to leverage the power of large foundation models to boo
 <br>
 
 ## Submission
-We use CodaLab for online submission in the development phase. **Here, we provide an [example](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/EZlBXzU5CZ9DsZKXaK56iksBcdN_cajk-hRYjXQI-K0E-g?e=3UMldv) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.lfsr@outlook.com). Please refer to our [online website](https://codalab.lisn.upsaclay.fr/competitions/21276#learn_the_details-evaluation) for details of the submission rules.
+We use CodaLab for online submission in the development phase. **Here, we provide an [example](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/EZlBXzU5CZ9DsZKXaK56iksBcdN_cajk-hRYjXQI-K0E-g?e=3UMldv) to help participants to format their submissions.** In the test phase, the final results and the source codes (both training and test) need to be submitted via emails (ntire.lfsr@outlook.com). Please refer to our [online website](https://www.codabench.org/competitions/12928/) for details of the submission rules.
 <br><br>
 
 ## Important Dates
-* 2025-01-20: Release of train data (input and output) and validation data (inputs only)
-* 2025-01-30: Validation server online
-* 2025-03-14: Final test data release (inputs only)
-* 2025-03-21: Test output results submission deadline
-* 2025-03-21: Fact sheets and code/executable submission deadline
-* 2025-03-24: Preliminary test results release to the participants
-* 2025-04-01: Paper submission deadline for entries from the challenge
-* 2025-06-18 (TBU): NTIRE workshop and challenges, results and award ceremony (CVPR 2025)
+* 2026-01-20: Release of train data (input and output) and validation data (inputs only)
+* 2026-01-30: Validation server online
+* 2026-03-10: Final test data release (inputs only)
+* 2026-03-17: Test output results submission deadline
+* 2026-03-17: Fact sheets and code/executable submission deadline
+* 2026-03-19: Preliminary test results release to the participants
+* 2026-03-24: Paper submission deadline for entries from the challenge
+* 2026-06 (TBU): NTIRE workshop and challenges, results and award ceremony (CVPR 2026)
 <br><br>
 
 ## Group number policy
@@ -100,6 +100,6 @@ Welcome to join our WeChat group by contact Yingqian Wang (WeChat: wangyingqian_
 <br><br>
 
 ## NTIRE 2025 Terms and Conditions:
-The terms and conditions of this challenge can be viewed [here](https://codalab.lisn.upsaclay.fr/competitions/21276#learn_the_details-terms_and_conditions).
+The terms and conditions of this challenge can be viewed [here](https://www.codabench.org/competitions/12928/).
  
 <br>
