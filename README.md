@@ -66,7 +66,7 @@ We use CodaLab for online submission in the development phase. **Here, we provid
 
 ## Important Dates
 * 2026-01-20: Release of train data (input and output) and validation data (inputs only)
-* 2026-01-30: Validation server online
+* 2026-01-21: Validation server online
 * 2026-03-10: Final test data release (inputs only)
 * 2026-03-17: Test output results submission deadline
 * 2026-03-17: Fact sheets and code/executable submission deadline
