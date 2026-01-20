@@ -3,12 +3,6 @@
 
 **Light field (LF) image super-resolution (SR) challenge is held as a part of the [NTIRE workshop](https://cvlai.net/ntire/2026/) in conjunction with CVPR 2026. The goal of this challenge is to develop methods to enhance the spatial resolution of LF images.**
 
-
-## News and Updates:
-* **2026-01-20**: Training and validation data released.
-* **2026-01-30**: Validation server online.
-<br><br>
-
 ## Introduction
 With recent advances in camera manufacturing, light field (LF) imaging technology becomes increasingly popular and is commonly used in various applications such as mobile phones, biological microscope, VR/AR etc. Since both intensity and directions of light rays are recorded by LF cameras, the resolution of LF images can be enhanced by using these additional angular information. LF image super-resolution (SR), also known as LF spatial SR, aims at reconstructing high-resolution (HR) LF images from their low-resolution (LR) counterparts. 
 
