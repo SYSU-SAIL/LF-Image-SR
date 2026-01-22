@@ -81,7 +81,8 @@ Each group cannot have more than six group members (i.e., 1 to 6 group members i
 
 ## Issues and Questions:
 For any question regarding this challenge, please raise an issue under this repository. <br>
-Welcome to join our WeChat group by contact Yingqian Wang (WeChat: wangyingqian_666).
+Welcome to join our WeChat group by scanning the following QR code or contacting Yingqian Wang (WeChat: wangyingqian_666). <br>
+<p align="center">  <img src="https://raw.github.com/The-Learning-And-Vision-Atelier-LAVA/LF-Image-SR/NTIRE2026/Fig/logo.jpg" width="400"> </p>
 
 ## Organizers:
 * [**Yingqian Wang**](https://yingqianwang.github.io/) ([wangyingqian16@nudt.edu.cn](wangyingqian16@nudt.edu.cn))
