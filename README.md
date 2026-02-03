@@ -12,7 +12,7 @@ Jointly with the NTIRE workshop, we organize a challenge for LF community to foc
 ## Challenge Overview
 The objective of this challenge is to reconstruct HR LF images from their LR counterparts.
 
-During the model development phase, the HR training set and the LR validation set will be released. The participants can train their models on the training set and submit their super-resolved validation images to the CodaLab server for validation.
+During the model development phase, the HR training set and the LR validation set will be released. The participants can train their models on the training set and submit their super-resolved validation images to the CodaBench server for validation.
 
 During the test phase, the test set will be released, which includes LR LF images only. Challenge participants can apply their trained models to the LR test images to generate super-resolved test images. These super-resolved images will then be submitted by the participants and evaluated by the organizers with a set of objective quantitative metrics.
 <br><br>
@@ -24,11 +24,11 @@ This challenge follows the training set in the paper [DistgSSR](https://yingqian
 
 ### Validation Set: *[[Baidu Drive](https://pan.baidu.com/s/1n6TPP7EJlkKPMn-0DkN10g) (key:lfsr) or [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/zyliang_stu_xidian_edu_cn/Es3gi3N9XuVPpm8a9pysMGcB2-Pxenr5zo0WZXRaz_SaaA?e=1I840e)]*
 
-We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the [CodaLab server](https://codalab.lisn.upsaclay.fr/competitions/21276).
+We collect a new validation set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. We downsampled original LF images in the validation set by a factor of 4, and provide LR LF images with an angular resolution of 5x5. The participants can download the validation set to evaluate the performance of their developed models by submitting their super-resolved LF images to the CodaBench server.
 
 ### Test Set: 
 
-We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 will be provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaLab platform for final ranking. **It should be noted that the images in the test set cannot be used for training.** We provide [a template](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/Eeneqp4BnlhBmd4EGJ6T4KEB3YtuxuCUTgakr-ezxySOWA?e=WtdFYe ) for the participants to format their fact sheet.
+We collect a new test set consisting of 16 synthetic scenes rendered by the 3DS MAX software and 16 real-world images captured by a Lytro ILLUM camera. Only 4× bicubically downsampled LR LF images with an angular resolution of 5x5 will be provided. The participants are required to apply their models to the released LR LF images and submit their 4× super-resolved LF images to the CodaBench platform for final ranking. **It should be noted that the images in the test set cannot be used for training.** We provide [a template](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/zyliang_stu_xidian_edu_cn/Eeneqp4BnlhBmd4EGJ6T4KEB3YtuxuCUTgakr-ezxySOWA?e=WtdFYe ) for the participants to format their fact sheet.
 <br><br>
 
 ## Evaluation Metrics
