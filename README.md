@@ -71,7 +71,8 @@ We use CodaLab for online submission in the development phase. **Here, we provid
 * 2026-03-17: Test output results submission deadline
 * 2026-03-17: Fact sheets and code/executable submission deadline
 * 2026-03-19: Preliminary test results release to the participants
-* 2026-03-24: Paper submission deadline for entries from the challenge
+* 2026-03-22: Paper submission deadline for entries from the challenge
+* 2026-03-24: Paper decision notification
 * 2026-06 (TBU): NTIRE workshop and challenges, results and award ceremony (CVPR 2026)
 <br><br>
 
